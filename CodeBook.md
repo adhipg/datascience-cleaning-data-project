@@ -26,6 +26,7 @@ same number of rows:
 
 These three files were merged to form a single trainingData set. ActivityId was
 added as `activityId` and SubjectId was added as `subjectId`.
+The same steps were done to get the data for the test set.
 
 ### 2. Combine training and test datasets
 
