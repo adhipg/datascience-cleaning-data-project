@@ -19,7 +19,7 @@ process the data to do the following:
 ## Data Source
 
 The data used for the project has been collected from the accelerometers from
-the Samsung Galaxy S smartphone. A full description of the raw dat is at:
+the Samsung Galaxy S smartphone. A full description of the raw data is at:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
