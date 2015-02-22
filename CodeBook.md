@@ -49,7 +49,7 @@ actual activity name instead of the integer representation.
 The activity labels were as under:
 
 | ID | Activity |
-| -- | -------- |
+|----|----------|
 | 1 | WALKING |
 | 2 | WALKING_UPSTAIRS |
 | 3 | WALKING_DOWNSTAIRS |
@@ -76,15 +76,15 @@ The final `dataSet` that was used to create the summary consisted of 10299 rows.
 
 ```
 Subject
-  The SubjectID - INTEGER
+    The SubjectID - INTEGER
 Activity
-  Activity Name - One of:
-    WALKING
-    WALKING_UPSTAIRS
-    WALKING_DOWNSTAIRS
-    SITTING
-    STANDING
-    LAYING
+    Activity Name - One of:
+        WALKING
+        WALKING_UPSTAIRS
+        WALKING_DOWNSTAIRS
+        SITTING
+        STANDING
+        LAYING
 TimeBodyAccMeanX
 TimeBodyAccMeanY
 TimeBodyAccMeanZ
@@ -151,8 +151,8 @@ FrequencyBodyGyroMagMean
 FrequencyBodyGyroMagStdDev
 FrequencyBodyGyroJerkMagMean
 FrequencyBodyGyroJerkMagStdDev
-  All of these fields are a mean of the original values which were bound between
-  [-1, 1]. The mean is also therefore bound between [-1, 1] without any units.
+    All of these fields are a mean of the original values which were bound between
+    [-1, 1]. The mean is also therefore bound between [-1, 1] without any units.
 ```
 
 ## Output
