@@ -151,6 +151,8 @@ FrequencyBodyGyroMagMean
 FrequencyBodyGyroMagStdDev
 FrequencyBodyGyroJerkMagMean
 FrequencyBodyGyroJerkMagStdDev
+  All of these fields are a mean of the original values which were bound between
+  [-1, 1]. The mean is also therefore bound between [-1, 1] without any units.
 ```
 
 ## Output
