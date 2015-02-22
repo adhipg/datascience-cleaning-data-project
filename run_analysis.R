@@ -81,3 +81,5 @@ library(plyr)
 
 tidySet <- ddply(dataSet, c("Subject", "Activity"), numcolwise(mean))
 write.table(tidySet, "tidy.txt", sep="\t", row.name=FALSE)
+# Return as the output
+tidySet
